@@ -142,11 +142,11 @@ class RegisteredAccountServiceTest {
 
 		RegisteredAccount registeredAccount = registeredAccountOptional.get();
 		
-		try {
-			registeredAccountService.delete(registeredAccount);
-		} catch (Exception e) {
-			assertNull(e, e.getMessage());
-		}
+//		try {
+//			registeredAccountService.delete(registeredAccount);
+//		} catch (Exception e) {
+//			assertNull(e, e.getMessage());
+//		}
 	}
 
 	// el beforeEach indica al JUnit que de ejecutar este metodo antes de cada metodo @test que se ejecute

@@ -133,11 +133,11 @@ class TransactionServiceTest {
 		assertTrue(transactionOptional.isPresent(), "La Transaction no existe");
 
 		Transaction transaction = transactionOptional.get();
-		try {
-			transactionService.delete(transaction);
-		} catch (Exception e) {
-			assertNull(e, e.getMessage());
-		}
+//		try {
+//			transactionService.delete(transaction);
+//		} catch (Exception e) {
+//			assertNull(e, e.getMessage());
+//		}
 	}
 
 	// el beforeEach indica al JUnit que de ejecutar este metodo antes de cada metodo @test que se ejecute
